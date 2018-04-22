@@ -2,11 +2,15 @@
 
 Audio Classification of Animal Sounds using Deep Learning.
 
+Current Test accuracy: 0.88749
 ## Dependencies
 
 ```
 keras
-jupyter
+librosa
+numpy
+soundfile
+sklearn
 ```
 
 ## Usage
@@ -22,5 +26,5 @@ $ python extract.py
 Next, train the convolutional neural network:
 
 ```
-$ python cnn.py
+$ python main.py
 ```
